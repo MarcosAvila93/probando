@@ -1,0 +1,72 @@
+/* Header */
+header {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(233, 241, 244);
+}
+
+
+/* NAVBAR */
+#menu li>a {
+    font-size: 16px;
+    font-weight: bold;
+    /*Bold: negrita*/
+    color: #090800;
+}
+
+#menu form>button {
+    /* Siempre hay que ser más específico para que sea más importante que bootstrap, por eso hay que poner bien la ruta*/
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.suscribir {
+    background-color: #000;
+    color: #dbc547;
+}
+
+.suscribir:hover {
+    background-color: #dbc547;
+    color: #000;
+}
+
+/* CARROUSEL IMÁGENES */
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+/* CONTACTOS BACKGROUND */
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#seccion-contacto {
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/* CONTACTOS FORMULARIO */
+
+.contact-section {
+    width: 50%;
+    margin: auto;
+}
+
+
+#titulo-formulario img {
+    width: 500px;
+}
+
+.boton {
+    background-color: #000;
+    color: #dbc547;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #dbc547;
+    color: #000;
+}
